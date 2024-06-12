@@ -1,6 +1,10 @@
 from icecream import ic
 class Solution(object):
     def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         nums.sort()  
         result = []
         n = len(nums)
